@@ -11,7 +11,7 @@ function WorkExpDisplay({data }){
                 Work Experience
             </div>
             <ol>
-            {data.map(d => <li>
+            {data.map(d => <li key={d.companyName}> 
                 <div className='item'>
                                 <div>Company Name</div><div>{d.companyName}</div>
                                 <div>Position</div><div>{d.position}</div>

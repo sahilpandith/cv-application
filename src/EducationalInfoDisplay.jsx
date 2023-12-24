@@ -11,7 +11,7 @@ function EducationalInfoDisplay({data }){
                 Educational Qualification
             </div>
             <ol>
-            {data.map(d => <li>
+            {data.map(d => <li key={d.degreeType}>
                 <div className='item'>
                                 <div>Institute</div><div>{d.instituteName}</div>
                                 <div>Degree</div><div>{d.degreeType}</div>
