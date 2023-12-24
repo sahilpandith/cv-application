@@ -1,0 +1,19 @@
+.educational-info-display-wrapper{
+    background-color: #3f5572;
+}
+.educational-info-display-wrapper .title{
+    padding: 6px;
+}
+
+.educational-info-display-wrapper .title .educational-qualification{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.educational-info-display-wrapper .title  .item {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 130px 1fr;
+    padding-bottom: 17px;
+}

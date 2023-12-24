@@ -1,0 +1,19 @@
+.work-info-display-wrapper{
+    background-color: #87a5cc;
+}
+.work-info-display-wrapper .title{
+    padding: 6px;
+}
+
+.work-info-display-wrapper .title .work-qualification{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.work-info-display-wrapper .title  .item {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 88px 1fr;
+    padding-bottom: 17px;
+}
